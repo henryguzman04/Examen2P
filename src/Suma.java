@@ -1,23 +1,20 @@
 public class Suma {
-    // Método para sumar dos valores enteros
-    public int sumar(int a, int b) {
-        return a + b;
+    public int suma_e(int a1, int b1) {
+        return a1 + b1;
     }
 
-    // Método sobrecargado para sumar tres valores enteros
-    public int sumar(int a, int b, int c) {
-        return a + b + c;
+    public int suma_e(int a2, int b2, int c1) {
+        return a2 + b2 + c1;
     }
 
-    // Método sobrecargado para sumar dos valores double
-    public double sumar(double a, double b) {
-        return a + b;
+    public double suma_d(double a3, double b3) {
+        return a3 + b3;
+
+    }
+    public double suma_d(double a4, double b5, double c2) {
+        return a4 + b5 + c2;
     }
 
-    // Método sobrecargado para sumar tres valores double
-    public double sumar(double a, double b, double c) {
-        return a + b + c;
-    }
 }
 
 
